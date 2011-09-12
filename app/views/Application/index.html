@@ -1,0 +1,36 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+<h1>Calculadora - Play! Framework - UERN</h1>
+
+<h2>Soma entre dois números</h2>
+
+<form action="/application/somar">
+	<p>Número 1: <input type="text" name="num1"/></p>
+	<p>Número 2: <input type="text" name="num2"/></p>
+	<p><input type="submit" /></p>
+</form>
+
+<h2>Diferença entre dois números</h2>
+
+<form action="/application/diminuir">
+	<p>Número 1: <input type="text" name="num1"/></p>
+	<p>Número 2: <input type="text" name="num2"/></p>
+	<p><input type="submit" /></p>
+</form>
+
+<h2>Multiplicação entre dois números</h2>
+
+<form action="/application/multiplicar">
+	<p>Número 1: <input type="text" name="num1"/></p>
+	<p>Número 2: <input type="text" name="num2"/></p>
+	<p><input type="submit" /></p>
+</form>
+
+<h2>Divisão entre dois números</h2>
+
+<form action="/application/dividir">
+	<p>Número 1: <input type="text" name="num1"/></p>
+	<p>Número 2: <input type="text" name="num2"/></p>
+	<p><input type="submit" /></p>
+</form>
